@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/halo', function () {
     return view('index');
 });
+
+Route::get('/hai', function () {
+    return view('hai');
+});
